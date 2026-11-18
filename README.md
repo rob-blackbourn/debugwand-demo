@@ -21,7 +21,8 @@ podman build -t debugwand-demo:1.0.0 .
 ## Run the container
 
 The example program is a simple web app. The port 8080 is opened for
-the app and 5679 is opened for the debugger.
+the app and 5679 is opened for the debugger. The capacity `SYS_PTRACE` must be
+added.
 
 ```bash
 podman run \
@@ -45,7 +46,7 @@ wand debug --container debugwand-demo
 Attach the debugger, set a breakpoint on the request handler and refresh the
 browser.
 
-This is the launch.json for vscode.
+This is the `launch.json` for vscode.
 
 ```json
 {
