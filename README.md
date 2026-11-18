@@ -2,7 +2,7 @@
 
 This project creates a container that can be debugged by [debugwand](https://github.com/savannahostrowski/debugwand/tree/main).
 
-My environment was Ubuntu 26.04.1 LTS.
+My environment was Ubuntu 26.04.1 LTS with podman.
 
 ## Setup the local environment
 
